@@ -6,8 +6,9 @@
 // links.style.textAlign = 'center'
 // links.style.backgroundColor = 'yellow'
 document.body.style.backgroundImage = "url('img/bg1.gif')"
+document.body.style.backgroundSize = cover
 function detectMob() {
-    return ((window.innerWidth < window.innerHeight));
+    return ((window.innerWidth < window.innerHeight))
 }
 if (detectMob()){
     document.body.style.backgroundImage = "url('img/bg2.gif')"
