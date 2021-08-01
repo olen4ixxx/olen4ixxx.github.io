@@ -2,6 +2,7 @@ body {
     background-image: url("img/bg1.gif");
     /*background-size: cover;*/
     background-size: 200%;
+    background-repeat: no-repeat;
     /*max-height: 100%;*/
 }
 /*html {*/
