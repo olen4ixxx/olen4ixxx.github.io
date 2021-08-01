@@ -5,6 +5,16 @@
 // links.style.color = 'blue'
 // links.style.textAlign = 'center'
 // links.style.backgroundColor = 'yellow'
-
-
+function detectMob() {
+    return ((window.innerWidth <= window.innerHeight));
+}
+if (!detectMob()) {
+    document.body.style.backgroundImage = "url('img/bg1.gif')"
+} else {
+    document.body.style.backgroundImage = "url('img/bg1.gif')"
+    document.body.style.backgroundSize = 400%
+}
+let detect = new MobileDetect(window.navigator.userAgent)
+console.log("Mobile: " + detect.mobile());       // телефон или планшет
+console.log(typeof detect.mobile())
 
