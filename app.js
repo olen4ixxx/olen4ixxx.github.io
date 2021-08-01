@@ -7,6 +7,7 @@
 // links.style.backgroundColor = 'yellow'
 document.body.style.backgroundImage = "url('img/bg1.gif')"
 document.body.style.backgroundSize = cover
+document.body.style.backgroundRepeat = no-repeat
 function detectMob() {
     return ((window.innerWidth < window.innerHeight))
 }
