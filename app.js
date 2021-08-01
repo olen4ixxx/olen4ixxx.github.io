@@ -6,14 +6,14 @@
 // links.style.textAlign = 'center'
 // links.style.backgroundColor = 'yellow'
 document.body.style.backgroundImage = "url('img/bg1.gif')"
-document.body.style.backgroundSize = cover
+// let percentage = window.innerHeight/718
 document.body.style.backgroundRepeat = no-repeat
 function detectMob() {
     return ((window.innerWidth < window.innerHeight))
 }
 if (detectMob()){
     document.body.style.backgroundImage = "url('img/bg2.gif')"
-    // document.body.style.backgroundSize = 400%
+    document.body.style.backgroundSize = "300%"
 }
 let detect = new MobileDetect(window.navigator.userAgent)
 console.log("Mobile: " + detect.mobile());       // телефон или планшет
