@@ -12,7 +12,7 @@ function detectMob() {
 }
 if (detectMob()){
     document.body.style.backgroundImage = "url('img/bg1.gif')"
-    document.body.style.backgroundSize = "300%"
+    document.body.style.backgroundSize = `${window.innerHeight/718*100}%`
     document.body.style.backgroundRepeat = no-repeat
 }
 // let detect = new MobileDetect(window.navigator.userAgent)
